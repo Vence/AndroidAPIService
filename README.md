@@ -6,7 +6,7 @@
 使用RESTfulAPI可以大大减低与服务器交互的复杂程度，这里本人做了一点小demo，供测试与服务器的数据交互问题的，如果有什么问题，希望大家能及时告知。
 
 ##如何访问服务器
-通过httpClient对RESTfulAPI进行访问，这里需要注意的是参与和中文编码问题；
+通过httpClient对RESTfulAPI进行访问，这里需要注意的是参数和中文编码问题；
 
 `httpClient.getParams().setContentCharset("UTF-8");`
 
