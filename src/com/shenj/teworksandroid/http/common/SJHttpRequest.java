@@ -156,7 +156,7 @@ public abstract class SJHttpRequest {
 			/**
 			 * 如果是自定义类，就进行json转换成字符串
 			 */
-			if (obj.getClass().getPackage().getName().matches(".*teworks.*")){
+			if (obj.getClass().getPackage().getName().matches(".*test.*")){
 				
 				pair = new NameValuePair(key , JsonBinder.getInstance().toJson(obj));
 			} else {
