@@ -175,8 +175,8 @@ public abstract class SJHttpRequest {
 	public static void main(String[] args){
 		Map<String,Object> map = new HashMap();
 		
-		map.put("user", "wanghuiyi@expogroup.sh.cn");
-		map.put("name", "王慧艺");
+		map.put("user", "wangwenlu@aa.com");
+		map.put("name", "王大锤");
 		
 	}
 
